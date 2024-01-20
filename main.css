@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+  }
+  #navbar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  #logo {
+    width: 5%;
+    text-align: right;
+  }
+  #logo img {
+    width: 30%;
+    border-radius: 80%;
+    padding: 13px;
+  }
+  #profile img {
+    border-radius: 80%;
+    width: 50%;
+    height: 35px;
+    padding-top: 7%;
+  }
+  #search {
+    width: 15%;
+    padding: 13px;
+  }
+  ul {
+    padding-left: 0px;
+  }
+  
+  #list li {
+    display: inline;
+    margin-right: 2%;
+  }
+  #options {
+    width: 65%;
+  }
+  #profile {
+    width: 5%;
+  }
+ 
+.pagination {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination li {
+  color: black;
+  margin: 0 5px;
+  cursor: pointer;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pagination li:hover {
+  background-color: #f4f4f4;
+}
+
+  #main{
+  
+    .container {
+      margin-top: 20px;
+    }
+    .page {
+      display: none;
+    }
+    .page-active {
+      display: block;
+    }
+  padding: 3%;
+  }
+  
+  
